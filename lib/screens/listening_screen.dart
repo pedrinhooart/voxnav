@@ -59,7 +59,7 @@ class ListeningScreen extends StatelessWidget {
                     width: double.infinity,
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
-                      color: Colors.blue[50].withOpacity(0.5),
+                      color: Colors.blue[50]!.withOpacity(0.5),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Column(
